@@ -1,0 +1,235 @@
+{
+  "level": [
+    {
+      "type": "spritesheet",
+      "key": "bg",
+      "url": "assets/images/bg.jpg",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "Explosion",
+      "urls": ["assets/images/Explosion.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "jump",
+      "urls": ["assets/images/pop.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "song",
+      "urls": ["assets/images/random silly chip song.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "dead",
+      "urls": ["assets/images/qubodup-cfork-ccby3-jump.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "goalsong",
+      "urls": ["assets/images/Well Done CCBY3.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "menusong",
+      "urls": ["assets/images/Flying me softly.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "explosion",
+      "url": "assets/images/explosion.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "teampic",
+      "url": "assets/images/teampic.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "s1",
+      "url": "assets/images/S1.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "s2",
+      "url": "assets/images/S2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "s3",
+      "url": "assets/images/S3.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "s4",
+      "url": "assets/images/S4.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "s5",
+      "url": "assets/images/S5.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "coins",
+      "url": "assets/images/coins.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "CoinEcho",
+      "urls": ["assets/images/Picked Coin Echo.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "tile_set",
+      "url": "assets/tilemap/tile_set.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Sunny5",
+      "url": "assets/sprites/Sunny5.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "goal1",
+      "url": "assets/images/goal.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "Lab7.5",
+      "url": "assets/tilemap/Lab7.5.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "spritesheet",
+      "key": "Boom",
+      "url": "assets/images/Boom.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "Lab7.6",
+      "url": "assets/tilemap/Lab7.6.json",
+      "format": "TILED_JSON"
+    }
+  ],
+  "start": [
+    {
+      "type": "image",
+      "key": "tap-to-start",
+      "url": "assets/images/tap-to-start.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "story",
+      "url": "assets/images/story.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "team",
+      "url": "assets/images/team.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "start",
+      "url": "assets/images/start.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "logo",
+      "url": "assets/images/logo.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "fbbg",
+      "url": "assets/images/fbbg.png",
+      "overwrite": false
+    }
+  ],
+  "preload": [{
+    "type": "image",
+    "key": "loading",
+    "url": "assets/images/loading.png",
+    "overwrite": false
+  }],
+  "meta": {
+    "generated": "1513845658069",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
